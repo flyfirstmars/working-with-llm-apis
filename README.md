@@ -158,4 +158,4 @@ All other imports (os, json, time, base64, pathlib) are Python standard library 
 
 ## License
 
-Educational use only.
+[MIT License](https://github.com/flyfirstmars/working-with-llm-apis/blob/main/LICENSE)
