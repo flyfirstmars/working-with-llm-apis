@@ -1,0 +1,25 @@
+[project]
+name = "llm-api-workshop"
+version = "1.0.0"
+description = "LLM API Workshop - Practical guide to working with Large Language Model APIs"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.32.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+]
+
+[project.optional-dependencies]
+# Optional: For HTTP debugging and testing
+debug = [
+    "httpie>=3.2.2",
+]
+
+[tool.uv]
+# Lock file configuration
+dev-dependencies = []
+
